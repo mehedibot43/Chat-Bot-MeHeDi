@@ -28,13 +28,13 @@ module.exports.run = async function({ api, event }) {
   const { threadID } = event;
   
   const botPrefix = global.config.PREFIX || "/";
-  const botName = global.config.BOTNAME || "❥♥༊۵𝐂𝐇𝐀𝐓-𝐁𝐎𝐓-𝐌𝐄𝐇𝐄𝐃𝐈۵༊♥❥";
+  const botName = global.config.BOTNAME || "𝗦𝗵𝗮𝗵𝗮𝗱𝗮𝘁 𝗖𝗵𝗮𝘁 𝗕𝗼𝘁";
 
  
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     await api.changeNickname(`[ ${botPrefix} ] • ${botName}`, threadID, api.getCurrentUserID());
 
-    api.sendMessage("চ্ঁলে্ঁ এ্ঁসে্ঁছি্ঁ 𝐂𝐇𝐀𝐓-𝐁𝐎𝐓-𝐌𝐄𝐇𝐄𝐃𝐈 এঁখঁনঁ তোঁমাঁদেঁরঁ সাঁথেঁ আঁড্ডাঁ দিঁবঁ..!", threadID, () => {
+    api.sendMessage("চ্ঁলে্ঁ এ্ঁসে্ঁছি্ঁ ۵𝐂𝐘𝐁𝐄𝐑 𝐁𝐎𝐓 𝐌𝐄𝐇𝐄𝐃𝐈۵ এঁখঁনঁ তোঁমাঁদেঁরঁ সাঁথেঁ আঁড্ডাঁ দিঁবঁ..!", threadID, () => {
       const randomGifPath = path.join(__dirname, "cache", "randomgif");
       const allFiles = fs.readdirSync(randomGifPath).filter(file =>
         [".mp4", ".jpg", ".png", ".jpeg", ".gif", ".mp3"].some(ext => file.endsWith(ext))
@@ -49,19 +49,19 @@ module.exports.run = async function({ api, event }) {
 ╰•┄┅═══❁🌺❁═══┅┄•╯
 
 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐬𝐨 𝐦𝐮𝐜𝐡 𝐟𝐨𝐫 𝐚𝐝𝐝𝐢𝐧𝐠 𝐦𝐞 𝐭𝐨 𝐲𝐨𝐮𝐫 𝐢-𝐠𝐫𝐨𝐮𝐩-🖤🤗
-𝐈 𝐰𝐢𝐥𝐥 𝐚𝐥𝐰𝐚𝐲𝐬 𝐬𝐞𝐫𝐯𝐞 𝐲𝐨𝐮 𝐢𝐧𝐚𝐡𝐚𝐥𝐥𝐚𝐡 🌺❤️
+𝐈 𝐰𝐢𝐥𝐥 𝐚𝐥𝐰𝐚𝐲𝐬 𝐒𝐞𝐫𝐯𝐢𝐜𝐞 𝐲𝐨𝐮 𝐈𝐧 𝐒𝐡𝐚 𝐀𝐥𝐥𝐚𝐡 🌺❤️
 
 𝐓𝐨 𝐯𝐢𝐞𝐰 𝐚𝐧𝐲 𝐜𝐨𝐦𝐦𝐚𝐧𝐝:
 ${botPrefix}Help
 ${botPrefix}Info
 ${botPrefix}Admin
 
-★ যেকোনো অভিযোগ অথবা হেল্প এর জন্য এডমিন 𝐌𝐄𝐇𝐄𝐃𝐈 কে নক করতে পারেন ★
+★ যেকোনো অভিযোগ অথবা হেল্প এর জন্য এডমিন 𝐌𝐞𝐡𝐞𝐝𝐢 কে নক করতে পারেন ★
 ➤𝐌𝐞𝐬𝐬𝐞𝐧𝐠𝐞𝐫: https://www.facebook.com/100035088489972
-➤𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: https://wa.me/01603566588
+➤𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: 01603566588
 
 ❖⋆═══════════════════════⋆❖
-          𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ➢ 𝐌𝐄𝐇𝐄𝐃𝐈 𝐀𝐇𝐀𝐌𝐄𝐃`;
+          𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ➢ ❝𝐌𝐞𝐡𝐞𝐝𝐢 𝐀𝐡𝐚𝐦𝐞𝐝❞`;
 
       if (selected) {
         api.sendMessage({ body: messageBody, attachment: selected }, threadID);
@@ -108,7 +108,7 @@ ${botPrefix}Admin
 
 💌 🌺 𝐖 𝐄 𝐋 𝐂 𝐎 𝐌 𝐄 🌺 💌
 ╭─╼╾─╼🌸╾─╼╾───╮
- 𝐂𝐇𝐀𝐓-𝐁𝐎𝐓-𝐌𝐄𝐇𝐄𝐃𝐈🌺
+    ❝𝐂𝐲𝐛𝐞𝐫 𝐁𝐨𝐭 𝐌𝐞𝐡𝐞𝐝𝐢❞
 ╰───╼╾─╼🌸╾─╼╾─╯
 
 ❖⋆══════════════════════════⋆❖` : threadData.customJoin;
