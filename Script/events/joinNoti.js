@@ -28,7 +28,7 @@ module.exports.run = async function({ api, event }) {
   const { threadID } = event;
   
   const botPrefix = global.config.PREFIX || "/";
-  const botName = global.config.BOTNAME || "𝗦𝗵𝗮𝗵𝗮𝗱𝗮𝘁 𝗖𝗵𝗮𝘁 𝗕𝗼𝘁";
+  const botName = global.config.BOTNAME || "❝𝐂𝐲𝐛𝐞𝐫 𝐁𝐨𝐭 𝐌𝐞𝐡𝐞𝐝𝐢❞";
 
  
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
